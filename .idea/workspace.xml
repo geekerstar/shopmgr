@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="191cec2d-5fe9-4061-9361-3df88c7f5d07" name="Default Changelist" comment="" />
+    <list default="true" id="191cec2d-5fe9-4061-9361-3df88c7f5d07" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,6 +31,7 @@
           <entry key="java" value="39" />
           <entry key="js" value="1" />
           <entry key="jsp" value="10" />
+          <entry key="md" value="2" />
           <entry key="properties" value="2" />
           <entry key="xml" value="9" />
         </counts>
@@ -38,6 +41,7 @@
           <entry key="JAVA" value="39" />
           <entry key="JSP" value="10" />
           <entry key="JavaScript" value="1" />
+          <entry key="Markdown" value="2" />
           <entry key="Properties" value="2" />
           <entry key="XML" value="9" />
         </counts>
@@ -46,6 +50,7 @@
         <counts>
           <entry key="java" value="81" />
           <entry key="jsp" value="57" />
+          <entry key="md" value="10" />
           <entry key="properties" value="6" />
           <entry key="xml" value="14" />
         </counts>
@@ -54,6 +59,7 @@
         <counts>
           <entry key="JAVA" value="81" />
           <entry key="JSP" value="57" />
+          <entry key="Markdown" value="10" />
           <entry key="Properties" value="6" />
           <entry key="XML" value="14" />
         </counts>
@@ -62,102 +68,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/geekerstar/shop/utils/Pager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-              <folding>
-                <element signature="e#1146#1147#0" expanded="true" />
-                <element signature="e#1213#1214#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/geekerstar/shop/repository/UserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/application.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/geekerstar/shop/action/LoginServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="236" column="6" lean-forward="true" selection-start-line="236" selection-start-column="6" selection-end-line="236" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-537">
-              <caret line="49" column="81" lean-forward="true" selection-start-line="49" selection-start-column="81" selection-end-line="49" selection-end-column="81" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/preArticle.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="85" column="36" selection-start-line="85" selection-start-column="36" selection-end-line="85" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/updateArticle.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1070">
-              <caret line="116" column="10" lean-forward="true" selection-start-line="116" selection-start-column="10" selection-end-line="116" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/geekerstar/shop/repository/ArticleTypeMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/geekerstar/shop/repository/ArticleMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="75">
+                <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -208,6 +126,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/preArticle.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/updateArticle.jsp" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -245,7 +164,9 @@
     <option name="width" value="1400" />
     <option name="height" value="907" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -262,119 +183,6 @@
               <item name="shopmgr" type="b2602c69:ProjectViewProjectNode" />
               <item name="shopmgr" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopmgr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopmgr" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopmgr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopmgr" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopmgr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopmgr" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopmgr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopmgr" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="action" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopmgr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopmgr" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopmgr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopmgr" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopmgr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopmgr" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopmgr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopmgr" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopmgr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopmgr" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopmgr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopmgr" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopmgr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopmgr" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopmgr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopmgr" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopmgr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopmgr" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopmgr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopmgr" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -503,17 +311,18 @@
       <option name="presentableId" value="Default" />
       <updated>1537432541393</updated>
       <workItem from="1537432542855" duration="7604000" />
-      <workItem from="1537442656050" duration="422000" />
+      <workItem from="1537442656050" duration="754000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8026000" />
+    <option name="totallyTimeSpent" value="8358000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="157" y="46" width="1400" height="907" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533137" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533137" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -529,7 +338,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32883435" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32883435" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32883435" />
       <window_info anchor="bottom" id="Application Servers" order="13" weight="0.32883435" />
@@ -748,8 +557,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/updateArticle.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1070">
-          <caret line="116" column="10" lean-forward="true" selection-start-line="116" selection-start-column="10" selection-end-line="116" selection-end-column="10" />
+        <state relative-caret-position="556">
+          <caret line="69" column="70" lean-forward="true" selection-start-line="69" selection-start-column="70" selection-end-line="69" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
