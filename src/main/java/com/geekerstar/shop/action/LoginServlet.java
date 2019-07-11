@@ -55,8 +55,8 @@ public class LoginServlet extends HttpServlet {
             String passWord = request.getParameter("passWord");
             Map<String, Object> results = shopService.login(loginName, passWord);
             if ((int) results.get("code") == 0) {
-                // 登陆成功的
-                // 把登陆成功的用户注入到session会话中去
+                // 登录成功的
+                // 把登录成功的用户注入到session会话中去
                 // 跳转到主界面
                 User user = (User) results.get("msg");
                 request.setAttribute(Constants.USER_SESSION, user);

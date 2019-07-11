@@ -48,8 +48,8 @@ public class ShopServiceImpl implements ShopService {
             if (user != null) {
                 // 判断密码
                 if (user.getPassword().equals(passWord)) {
-                    // 登陆成功了
-                    // 应该将登陆成功的用户存入到Session会话中
+                    // 登录成功了
+                    // 应该将登录成功的用户存入到Session会话中
                     results.put("code", 0);
                     results.put("msg", user);
                 } else {

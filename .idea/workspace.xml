@@ -7,100 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="191cec2d-5fe9-4061-9361-3df88c7f5d07" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopmgr.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekerstar/shop/action/ArticleTypeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekerstar/shop/action/ArticleTypeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekerstar/shop/action/ListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekerstar/shop/action/ListServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/geekerstar/shop/action/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekerstar/shop/action/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekerstar/shop/bean/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekerstar/shop/bean/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekerstar/shop/bean/ArticleType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekerstar/shop/bean/ArticleType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekerstar/shop/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekerstar/shop/bean/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekerstar/shop/service/ShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekerstar/shop/service/ShopService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/geekerstar/shop/service/ShopServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekerstar/shop/service/ShopServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekerstar/shop/utils/Pager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekerstar/shop/utils/Pager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/c3p0.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/c3p0.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/geekerstar/shop/repository/ArticleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/geekerstar/shop/repository/ArticleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/geekerstar/shop/repository/ArticleTypeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/geekerstar/shop/repository/ArticleTypeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/geekerstar/shop/repository/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/geekerstar/shop/repository/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/preArticle.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/preArticle.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/updateArticle.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/updateArticle.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/My97DatePicker/WdatePicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/My97DatePicker/WdatePicker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/My97DatePicker/lang/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/My97DatePicker/lang/en.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/My97DatePicker/lang/zh-cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/My97DatePicker/lang/zh-cn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/My97DatePicker/lang/zh-tw.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/My97DatePicker/lang/zh-tw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/My97DatePicker/skin/WdatePicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/My97DatePicker/skin/WdatePicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/My97DatePicker/skin/default/datepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/My97DatePicker/skin/default/datepicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/My97DatePicker/skin/whyGreen/datepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/My97DatePicker/skin/whyGreen/datepicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/My97DatePicker/开发包/lang/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/My97DatePicker/开发包/lang/en.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/My97DatePicker/开发包/lang/zh-cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/My97DatePicker/开发包/lang/zh-cn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/My97DatePicker/开发包/lang/zh-tw.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/My97DatePicker/开发包/lang/zh-tw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/My97DatePicker/开发包/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/My97DatePicker/开发包/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/My97DatePicker/开发包/skin/WdatePicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/My97DatePicker/开发包/skin/WdatePicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/My97DatePicker/开发包/skin/default/datepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/My97DatePicker/开发包/skin/default/datepicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/My97DatePicker/开发包/skin/whyGreen/datepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/My97DatePicker/开发包/skin/whyGreen/datepicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-theme.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/taobao.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/taobao.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/jquery/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/taobao.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/taobao.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/c3p0.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/c3p0.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekerstar/shop/repository/ArticleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/geekerstar/shop/repository/ArticleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekerstar/shop/repository/ArticleTypeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/geekerstar/shop/repository/ArticleTypeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/geekerstar/shop/repository/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/geekerstar/shop/repository/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopmgr/WEB-INF/classes/c3p0.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopmgr/WEB-INF/classes/c3p0.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopmgr/WEB-INF/classes/com/geekerstar/shop/repository/ArticleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopmgr/WEB-INF/classes/com/geekerstar/shop/repository/ArticleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopmgr/WEB-INF/classes/com/geekerstar/shop/repository/ArticleTypeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopmgr/WEB-INF/classes/com/geekerstar/shop/repository/ArticleTypeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopmgr/WEB-INF/classes/com/geekerstar/shop/repository/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopmgr/WEB-INF/classes/com/geekerstar/shop/repository/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopmgr/WEB-INF/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopmgr/WEB-INF/classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopmgr/WEB-INF/jsp/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopmgr/WEB-INF/jsp/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopmgr/WEB-INF/jsp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopmgr/WEB-INF/jsp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopmgr/WEB-INF/jsp/preArticle.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopmgr/WEB-INF/jsp/preArticle.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopmgr/WEB-INF/jsp/updateArticle.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopmgr/WEB-INF/jsp/updateArticle.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopmgr/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopmgr/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopmgr/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopmgr/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopmgr/resources/My97DatePicker/WdatePicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopmgr/resources/My97DatePicker/WdatePicker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopmgr/resources/My97DatePicker/lang/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopmgr/resources/My97DatePicker/lang/en.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopmgr/resources/My97DatePicker/lang/zh-cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopmgr/resources/My97DatePicker/lang/zh-cn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopmgr/resources/My97DatePicker/lang/zh-tw.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopmgr/resources/My97DatePicker/lang/zh-tw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopmgr/resources/My97DatePicker/skin/WdatePicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopmgr/resources/My97DatePicker/skin/WdatePicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopmgr/resources/My97DatePicker/skin/default/datepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopmgr/resources/My97DatePicker/skin/default/datepicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopmgr/resources/My97DatePicker/skin/whyGreen/datepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopmgr/resources/My97DatePicker/skin/whyGreen/datepicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopmgr/resources/My97DatePicker/开发包/lang/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopmgr/resources/My97DatePicker/开发包/lang/en.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopmgr/resources/My97DatePicker/开发包/lang/zh-cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopmgr/resources/My97DatePicker/开发包/lang/zh-cn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopmgr/resources/My97DatePicker/开发包/lang/zh-tw.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopmgr/resources/My97DatePicker/开发包/lang/zh-tw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopmgr/resources/My97DatePicker/开发包/skin/WdatePicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopmgr/resources/My97DatePicker/开发包/skin/WdatePicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopmgr/resources/My97DatePicker/开发包/skin/default/datepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopmgr/resources/My97DatePicker/开发包/skin/default/datepicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopmgr/resources/My97DatePicker/开发包/skin/whyGreen/datepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopmgr/resources/My97DatePicker/开发包/skin/whyGreen/datepicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopmgr/resources/bootstrap/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopmgr/resources/bootstrap/css/bootstrap-theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopmgr/resources/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopmgr/resources/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopmgr/resources/bootstrap/css/bootstrap-theme.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopmgr/resources/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopmgr/resources/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopmgr/resources/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopmgr/resources/bootstrap/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopmgr/resources/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopmgr/resources/bootstrap/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopmgr/resources/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopmgr/resources/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopmgr/resources/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopmgr/resources/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopmgr/resources/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopmgr/resources/bootstrap/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopmgr/resources/bootstrap/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopmgr/resources/css/taobao.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopmgr/resources/css/taobao.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopmgr/resources/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopmgr/resources/jquery/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shopmgr/resources/js/taobao.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/shopmgr/resources/js/taobao.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -116,14 +25,83 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="135">
-                <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <first_editor relative-caret-position="60">
+                <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/geekerstar/shop/service/ShopService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/geekerstar/shop/action/ArticleTypeServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/geekerstar/shop/action/LoginServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="571">
+              <caret line="69" column="31" lean-forward="true" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/geekerstar/shop/service/ShopServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/geekerstar/shop/action/ListServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/geekerstar/shop/repository/UserMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -173,9 +151,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/geekerstar/shop/repository/ArticleTypeMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/geekerstar/shop/repository/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/geekerstar/shop/utils/Constants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/geekerstar/shop/action/LoginServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/geekerstar/shop/action/ListServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/geekerstar/shop/service/ShopServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com.geekerstar.shop.repository/ArticleMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/com.geekerstar.shop.repository/ArticleTypeMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/com.geekerstar.shop.repository/UserMapper.xml" />
@@ -186,6 +162,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/resources/c3p0.properties" />
         <option value="$PROJECT_DIR$/db.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/geekerstar/shop/action/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/geekerstar/shop/service/ShopServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -268,6 +246,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="shop" type="462c0819:PsiDirectoryNode" />
               <item name="action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopmgr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopmgr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shopmgr" type="b2602c69:ProjectViewProjectNode" />
@@ -447,12 +434,29 @@
       <workItem from="1537443741598" duration="48000" />
       <workItem from="1537447518606" duration="84000" />
       <workItem from="1537447641072" duration="20000" />
-      <workItem from="1562811980390" duration="1213000" />
+      <workItem from="1562811980390" duration="3385000" />
     </task>
+    <task id="LOCAL-00001" summary="格式化代码">
+      <created>1562813474179</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562813474179</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9816000" />
+    <option name="totallyTimeSpent" value="11988000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="941" extended-state="6" />
@@ -477,7 +481,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32979977" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
@@ -501,6 +505,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="格式化代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="格式化代码" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -511,23 +519,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/taobao.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/geekerstar/shop/action/ListServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/geekerstar/shop/action/ArticleTypeServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/geekerstar/shop/bean/Article.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -564,36 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/geekerstar/shop/repository/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/geekerstar/shop/service/ShopService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/geekerstar/shop/service/ShopServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/geekerstar/shop/repository/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -612,16 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/geekerstar/shop/action/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -724,13 +675,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/bootstrap/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="1588" column="36" selection-start-line="1588" selection-start-column="36" selection-end-line="1588" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="135">
-            <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <first_editor relative-caret-position="60">
+            <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/geekerstar/shop/service/ShopService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/geekerstar/shop/action/ArticleTypeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/geekerstar/shop/action/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="69" column="31" lean-forward="true" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/geekerstar/shop/repository/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/geekerstar/shop/service/ShopServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/geekerstar/shop/action/ListServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
