@@ -30,25 +30,25 @@ public class ListServlet extends HttpServlet {
     private ShopService shopService;
 
     private HttpServletRequest request;
-    private HttpServletResponse response ;
+    private HttpServletResponse response;
 
     @Override
     public void init() throws ServletException {
         super.init();
         // 获取sping的容器。然后从容器中得到业务层对象
-        ServletContext servletContext = this.getServletContext() ;
+        ServletContext servletContext = this.getServletContext();
         WebApplicationContext context = WebApplicationContextUtils.getWebApplicationContext(servletContext);
         shopService = (ShopService) context.getBean("shopService");
     }
 
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        try{
-            this.request = req ;
-            this.response = resp ;
+        try {
+            this.request = req;
+            this.response = resp;
             request.setCharacterEncoding("UTF-8");
             String method = request.getParameter("method");
-            switch (method){
+            switch (method) {
                 case "getAll":
                     getAll();
                     break;
@@ -70,7 +70,7 @@ public class ListServlet extends HttpServlet {
 
             }
 
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
@@ -105,35 +105,35 @@ public class ListServlet extends HttpServlet {
         article.setStorage(Integer.parseInt(storage));
         article.setDescription(description);
         shopService.saveArticle(article);
-        request.setAttribute("tip","添加商品成功");
+        request.setAttribute("tip", "添加商品成功");
         getAll();
     }
 
     private String receiveImage() {
-        try{
+        try {
             // 如果用户上传了这里代码是不会出现异常 了
             // 如果没有上传这里出现异常
             Part part = request.getPart("image");
             // 保存到项目的路径中去
             String sysPath = request.getSession().getServletContext().getRealPath("/resources/images/article");
             // 定义一个新的图片名称
-            String fileName = UUID.randomUUID().toString() ;
+            String fileName = UUID.randomUUID().toString();
             //  提取图片的类型
             // 上传文件的内容性质
             String contentDispostion = part.getHeader("content-disposition");
             // 获取上传文件的后缀名
             String suffix = contentDispostion.substring(contentDispostion.lastIndexOf("."), contentDispostion.length() - 1);
-            fileName+=suffix ;
+            fileName += suffix;
             // 把图片保存到路径中去
-            part.write(sysPath+"/"+fileName);
-            return fileName ;
-        }catch (Exception e){
+            part.write(sysPath + "/" + fileName);
+            return fileName;
+        } catch (Exception e) {
             e.printStackTrace();
-            return null ;
+            return null;
         }
     }
 
-    public void updateArticle(){
+    public void updateArticle() {
         // 接收界面提交的参数
         // 获取请求参数 ----普通表单元素
         String code = request.getParameter("code");
@@ -150,7 +150,7 @@ public class ListServlet extends HttpServlet {
 
         // 接收用户可能上传的封面
         String newUrl = receiveImage();
-        picUrl = newUrl!=null ?newUrl:picUrl ;
+        picUrl = newUrl != null ? newUrl : picUrl;
 
         article.setId(Integer.valueOf(id));
         article.setImage(picUrl);
@@ -164,7 +164,7 @@ public class ListServlet extends HttpServlet {
         article.setStorage(Integer.parseInt(storage));
         article.setDescription(description);
         shopService.updateArticle(article);
-        request.setAttribute("tip","修改商品成功");
+        request.setAttribute("tip", "修改商品成功");
         showUpdate();
     }
 
@@ -174,9 +174,9 @@ public class ListServlet extends HttpServlet {
             Article article = shopService.getArticleById(id);
             // 查询出所有的商品类型
             List<ArticleType> types = shopService.getArticleTypes();
-            request.setAttribute("article" ,article);
-            request.setAttribute("types" ,types);
-            request.getRequestDispatcher("/WEB-INF/jsp/updateArticle.jsp").forward(request,response);
+            request.setAttribute("article", article);
+            request.setAttribute("types", types);
+            request.getRequestDispatcher("/WEB-INF/jsp/updateArticle.jsp").forward(request, response);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -187,8 +187,8 @@ public class ListServlet extends HttpServlet {
         try {
             String id = request.getParameter("id");
             Article article = shopService.getArticleById(id);
-            request.setAttribute("article" ,article);
-            request.getRequestDispatcher("/WEB-INF/jsp/preArticle.jsp").forward(request,response);
+            request.setAttribute("article", article);
+            request.getRequestDispatcher("/WEB-INF/jsp/preArticle.jsp").forward(request, response);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -196,15 +196,15 @@ public class ListServlet extends HttpServlet {
     }
 
     private void deleteById() throws ServletException, IOException {
-        try{
+        try {
             String id = request.getParameter("id");
             shopService.deleteById(id);
-            request.setAttribute("tip","删除成功");
-        }catch (Exception e){
-            request.setAttribute("tip","删除失败");
+            request.setAttribute("tip", "删除成功");
+        } catch (Exception e) {
+            request.setAttribute("tip", "删除失败");
             e.printStackTrace();
         }
-        request.getRequestDispatcher("/list?method=getAll").forward(request,response);
+        request.getRequestDispatcher("/list?method=getAll").forward(request, response);
     }
 
     private void getAll() throws ServletException, IOException {
@@ -213,33 +213,33 @@ public class ListServlet extends HttpServlet {
         Pager pager = new Pager();
         // 看是否传入了分页参数的页码
         String pageIndex = request.getParameter("pageIndex");
-        if(!StringUtils.isEmpty(pageIndex)){
-                int pSize = Integer.valueOf(pageIndex);
-                pager.setPageIndex(pSize);
+        if (!StringUtils.isEmpty(pageIndex)) {
+            int pSize = Integer.valueOf(pageIndex);
+            pager.setPageIndex(pSize);
         }
 
         String secondType = request.getParameter("secondType");
         String title = request.getParameter("title");
-        request.setAttribute("title",title);
-        request.setAttribute("secondType",secondType);
-       // 接收一级类型编号查询
+        request.setAttribute("title", title);
+        request.setAttribute("secondType", secondType);
+        // 接收一级类型编号查询
         String typeCode = request.getParameter("typeCode");
         // 根据一级类型查询对应的二级类型
-        if(!StringUtils.isEmpty(typeCode)){
+        if (!StringUtils.isEmpty(typeCode)) {
 
             List<ArticleType> secondTypes = shopService.loadSecondTypes(typeCode);
-            request.setAttribute("typeCode",typeCode);
-            request.setAttribute("secondTypes",secondTypes);
+            request.setAttribute("typeCode", typeCode);
+            request.setAttribute("secondTypes", secondTypes);
         }
 
         // 1.查询所有的一级类型数据
         List<ArticleType> firstArticleTypes = shopService.loadFirstArticleTypes();
         // 2.查询所有的商品信息
-        List<Article> articles = shopService.searchArticles(typeCode , secondType , title , pager);
-        request.setAttribute("articleTypes" ,shopService.getArticleTypes());
-        request.setAttribute("firstArticleTypes" ,firstArticleTypes);
-        request.setAttribute("pager" ,pager);
-        request.setAttribute("articles" ,articles);
-        request.getRequestDispatcher("/WEB-INF/jsp/list.jsp").forward(request,response);
+        List<Article> articles = shopService.searchArticles(typeCode, secondType, title, pager);
+        request.setAttribute("articleTypes", shopService.getArticleTypes());
+        request.setAttribute("firstArticleTypes", firstArticleTypes);
+        request.setAttribute("pager", pager);
+        request.setAttribute("articles", articles);
+        request.getRequestDispatcher("/WEB-INF/jsp/list.jsp").forward(request, response);
     }
 }

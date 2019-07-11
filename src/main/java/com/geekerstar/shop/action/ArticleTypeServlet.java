@@ -24,7 +24,7 @@ public class ArticleTypeServlet extends HttpServlet {
     public void init() throws ServletException {
         super.init();
         // 获取sping的容器。然后从容器中得到业务层对象
-        ServletContext servletContext = this.getServletContext() ;
+        ServletContext servletContext = this.getServletContext();
         WebApplicationContext context = WebApplicationContextUtils.getWebApplicationContext(servletContext);
         shopService = (ShopService) context.getBean("shopService");
     }

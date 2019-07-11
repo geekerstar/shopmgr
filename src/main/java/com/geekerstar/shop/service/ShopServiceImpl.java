@@ -23,7 +23,7 @@ public class ShopServiceImpl implements ShopService {
 
     // 得到数据访问层对象
     @Resource
-    private ArticleTypeMapper  articleTypeMapper;
+    private ArticleTypeMapper articleTypeMapper;
 
     @Resource
     private ArticleMapper articleMapper;
@@ -36,31 +36,31 @@ public class ShopServiceImpl implements ShopService {
     }
 
     public Map<String, Object> login(String loginName, String passWord) {
-        Map<String,Object> results = new HashMap<String, Object>();
+        Map<String, Object> results = new HashMap<String, Object>();
         // 1.判断参数是否为空的
-        if(StringUtils.isEmpty(loginName) || StringUtils.isEmpty(passWord)){
+        if (StringUtils.isEmpty(loginName) || StringUtils.isEmpty(passWord)) {
             // 参数为空了
-            results.put("code",1);
-            results.put("msg","参数为空了");
-        }else{
+            results.put("code", 1);
+            results.put("msg", "参数为空了");
+        } else {
             // 根据登录名称去查询用户对象
-            User user =userMapper.login(loginName);
-            if(user !=null){
-                 // 判断密码
-                if(user.getPassword().equals(passWord)){
+            User user = userMapper.login(loginName);
+            if (user != null) {
+                // 判断密码
+                if (user.getPassword().equals(passWord)) {
                     // 登陆成功了
                     // 应该将登陆成功的用户存入到Session会话中
-                    results.put("code",0);
-                    results.put("msg",user);
-                }else{
+                    results.put("code", 0);
+                    results.put("msg", user);
+                } else {
                     // 密码错误了
-                    results.put("code",2);
-                    results.put("msg","密码错误了");
+                    results.put("code", 2);
+                    results.put("msg", "密码错误了");
                 }
-            }else{
+            } else {
                 // 登陆名不存在
-                results.put("code",3);
-                results.put("msg","登陆名不存在");
+                results.put("code", 3);
+                results.put("msg", "登陆名不存在");
             }
 
         }
@@ -75,7 +75,7 @@ public class ShopServiceImpl implements ShopService {
 
 
     public List<ArticleType> loadSecondTypes(String typeCode) {
-        List<ArticleType> articleTypes = articleTypeMapper.loadSecondTypes(typeCode+"%" , typeCode.length()+4);
+        List<ArticleType> articleTypes = articleTypeMapper.loadSecondTypes(typeCode + "%", typeCode.length() + 4);
         return articleTypes;
     }
 
@@ -101,14 +101,13 @@ public class ShopServiceImpl implements ShopService {
     }
 
 
-
-    public List<Article> searchArticles(String typeCode , String secondType
-            , String title,Pager pager) {
+    public List<Article> searchArticles(String typeCode, String secondType
+            , String title, Pager pager) {
         // 界面需要当前总共有多少条数据
         // 查询当前条件下总共有多少条数据
-        int count = articleMapper.count(typeCode , secondType ,title);
+        int count = articleMapper.count(typeCode, secondType, title);
         pager.setTotalCount(count);
-        return articleMapper.searchArticles(typeCode , secondType ,title , pager);
+        return articleMapper.searchArticles(typeCode, secondType, title, pager);
     }
 
 

@@ -6,15 +6,15 @@
 		 	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
 
 
-  <!-- 配置Spring的核心监听器 -->
-  <!-- 提取Spring的配置文件 -->
-  <context-param>
-    <param-name>contextConfigLocation</param-name>
-    <param-value>classpath:spring/application*.xml</param-value>
-  </context-param>
-  <listener>
-    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-  </listener>
+    <!-- 配置Spring的核心监听器 -->
+    <!-- 提取Spring的配置文件 -->
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>classpath:spring/application*.xml</param-value>
+    </context-param>
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
 
 
 </web-app>

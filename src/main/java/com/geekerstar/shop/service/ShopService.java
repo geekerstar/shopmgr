@@ -10,7 +10,7 @@ import java.util.Map;
 public interface ShopService {
     List<ArticleType> getArticleTypes();
 
-    Map<String,Object> login(String loginName, String passWord);
+    Map<String, Object> login(String loginName, String passWord);
 
     List<ArticleType> loadFirstArticleTypes();
 

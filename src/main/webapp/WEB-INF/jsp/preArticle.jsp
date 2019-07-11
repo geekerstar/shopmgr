@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-         pageEncoding="UTF-8"%>
+         pageEncoding="UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
@@ -16,8 +16,8 @@
     	2.如果客户端禁用了Cookie，自动使用URL重写技术，把jsessionid放到url的分号后面
     	/taobao/resources/bootstrap/css/bootstrap.css;jsessionid=xxxxx
      --%>
-    <link href="<c:url value="/resources/bootstrap/css/bootstrap.css"/>" rel="stylesheet" />
-    <link href="${pageContext.request.contextPath }/resources/css/taobao.css" rel="stylesheet" />
+    <link href="<c:url value="/resources/bootstrap/css/bootstrap.css"/>" rel="stylesheet"/>
+    <link href="${pageContext.request.contextPath }/resources/css/taobao.css" rel="stylesheet"/>
 
 </head>
 
@@ -63,7 +63,7 @@
                 </p>
                 <p>
                 <form method="get" action="list">
-                    <input type="hidden" name="method" value="getAll" />
+                    <input type="hidden" name="method" value="getAll"/>
                     <!-- 商品数量 -->
                     <button>
 							<span class="glyphicon glyphicon-chevron-left"

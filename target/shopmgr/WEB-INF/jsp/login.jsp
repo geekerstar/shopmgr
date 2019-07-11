@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-         pageEncoding="UTF-8"%>
+         pageEncoding="UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="zh_CN">
@@ -9,29 +9,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>登陆</title>
     <!-- Bootstrap core CSS -->
-    <link href="<c:url value="/resources/bootstrap/css/bootstrap.css"/>" rel="stylesheet" />
+    <link href="<c:url value="/resources/bootstrap/css/bootstrap.css"/>" rel="stylesheet"/>
 
-    <link href="${pageContext.request.contextPath }/resources/css/taobao.css" rel="stylesheet" />
+    <link href="${pageContext.request.contextPath }/resources/css/taobao.css" rel="stylesheet"/>
     <script src="${pageContext.request.contextPath }/resources/jquery/jquery.js"></script>
     <script type="text/javascript">
-        $(function(){
+        $(function () {
 
             // 给登录按钮绑定点击事件
-            $("#loginBtn").click(function(){
+            $("#loginBtn").click(function () {
                 var loginName = $("#loginName").val();
-                var passWord = $("#passWord").val() ;
+                var passWord = $("#passWord").val();
                 // 定义一个变量存储校验信息
-                var msg  = "" ;
-                if(!/^\w{5,}$/.test(loginName)){
+                var msg = "";
+                if (!/^\w{5,}$/.test(loginName)) {
                     msg = "登录名必须5个字符以上";
-                }else if(!/^\w{6,}$/.test(passWord)){
+                } else if (!/^\w{6,}$/.test(passWord)) {
                     msg = "请输入6位以上合法的密码";
                 }
 
-                if(msg!=""){
+                if (msg != "") {
                     // 触发弹出框
                     $('#myModal').modal('show');
-                    $("#tip").html("<span style='color:red;'>"+msg+"</span>");
+                    $("#tip").html("<span style='color:red;'>" + msg + "</span>");
                     return;
                 }
                 // 提交表单
@@ -63,13 +63,14 @@
         <div style="color: red;">${msg}</div>
         <div class="form-group">
             <div class="col-sm-4 col-sm-push-4">
-                <input class="form-control" value="${loginName }" placeholder="用户名/邮箱"  type="text"  id="loginName" name="loginName"/>
+                <input class="form-control" value="${loginName }" placeholder="用户名/邮箱" type="text" id="loginName"
+                       name="loginName"/>
             </div>
         </div>
 
         <div class="form-group">
             <div class="col-sm-4 col-sm-push-4">
-                <input class="form-control" placeholder="密码" id="passWord"  type="password" name="passWord"/>
+                <input class="form-control" placeholder="密码" id="passWord" type="password" name="passWord"/>
             </div>
         </div>
         <div class="form-group">
@@ -83,10 +84,12 @@
                 <div class="btn-group btn-group-justified" role="group" aria-label="...">
                     <div class="btn-group" role="group">
                         <button type="button" id="loginBtn" class="btn btn-success">
-                            <span class="glyphicon glyphicon-log-in"></span>&nbsp;登录</button>
+                            <span class="glyphicon glyphicon-log-in"></span>&nbsp;登录
+                        </button>
                     </div>
                     <div class="btn-group" role="group">
-                        <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-edit"></span>注册</button>
+                        <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-edit"></span>注册
+                        </button>
                     </div>
                 </div>
             </div>
@@ -99,7 +102,8 @@
         <div class="modal-dialog modal-sm">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" ><span aria-hidden="true">&times;</span></button>
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span>
+                    </button>
                     <h4 class="modal-title">登录提示</h4>
                 </div>
                 <div class="modal-body">
