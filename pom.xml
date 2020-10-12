@@ -15,7 +15,7 @@
 
     <!-- 配置的全局的属性 -->
     <properties>
-        <junit.version>4.11</junit.version>
+        <junit.version>4.13.1</junit.version>
         <jsp.api.version>8.5.5</jsp.api.version>
         <jstl.version>1.2</jstl.version>
         <spring.version>4.1.6.RELEASE</spring.version>
